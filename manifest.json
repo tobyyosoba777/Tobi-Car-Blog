@@ -1,0 +1,27 @@
+{
+    "name": "Tobi's Car Blog",
+    "short_name": "The Car Blog",
+    "icons": [
+        {
+            "Src": "./assets/icons/",
+            "sizes": "192*192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "Src": "./assets/icons/",
+            "sizes": "384*384",
+            "type": "image/png"
+        },
+        {
+            "Src": "./assets/icons/",
+            "sizes": "512*512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "start_url": "/shopping-app1",
+    "display": "standalone",
+    "orientation": "potrait"
+}
