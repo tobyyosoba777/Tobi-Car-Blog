@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container header{
+    font-size: 47px;
+    text-align: center;
+}
+
+body{
+    width: 100%;
+    background: url(images/pexels-yoshi-10550012.jpg);
+    background-size: cover;
+}
+
+.form {
+    box-sizing:border-box;
+    background: transparent;
+
+}
+
+.btn{
+    list-style: none;
+    display: inline-block;
+    padding: .9rem 3.5rem;
+    font-size: 2rem;
+    background: none;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 .5rem 1rem rgb(26 0 0 / 90%);
+    border-radius: 29px;
+
+}
+
+.container{
+
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    margin-top: 39px;
+}
+
+.footer{
+    color:rgb(17, 15, 15) ;
+    text-align: center;
+    margin-top: 700px;
+    background: rgb(207, 207, 207) !important;
+    font-size: 23px;
+    justify-content: center;
+    justify-items: center;
+}
+span{
+    color:red;
+}
+
+.btn:hover{
+    color: aqua;
+    font-size: 50px;
+    border: none;
+}

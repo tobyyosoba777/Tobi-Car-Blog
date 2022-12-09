@@ -1,0 +1,393 @@
+/* @import "mobstyle.css" screen and (max-width: 768px); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Noto+Sans|Open+Sans:400,700&display=swap');
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+* {
+    margin: unset;
+    padding: unset;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    transition: background .2s linear;
+    transition: background 0.5s linear;
+}
+
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    line-height: 5rem;
+    background: rgb(230, 22, 22);
+    height: 100%;
+    width: 100%;
+    color: rgb(252, 252, 252);
+    padding-left: 1rem;
+    box-sizing: border-box;
+}
+
+.navbar p{
+    font-size: 70px;
+}
+
+.menu ul{
+  margin-left: 630px;
+  float: left;
+}
+
+.navbar li{
+
+}
+
+.container h1{
+  font-family: Arial;
+  text-align: center;
+  font-size: 49px;
+  box-sizing:border-box;
+
+}
+
+.container{
+  width: 100%;
+  height: fit-content;
+  padding: 1rem;
+  background-image: url("./images/pexels-yoshi-10550012.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 50%;
+}
+
+.container p {
+    font-size: 70px;
+}
+
+.container1 {
+    margin-top: 95px;
+    margin-bottom: 150px;
+}
+
+.container1 p {
+    font-size: 70px;
+}
+
+.container1 li{
+    font-size: 26px;
+}
+
+.container1 img{
+    float: right;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+
+header {
+    font-size: 39px;
+    background-size: contain;
+}
+.suv{
+    width: fit-content;
+    height: fit-content;
+    padding: 0rem;
+}
+
+
+
+.muscle {
+    /* width: fit-content;
+    height: fit-content; */
+    object-fit: cover;
+}
+
+.suv {
+    /* width: fit-content;
+    height: fit-content; */
+    object-fit: cover;
+}
+
+.sport {
+    /* width: fit-content;
+    height: fit-content; */
+    object-fit: contain;
+}
+
+.sedans {
+    /* width: fit-content;
+    height: fit-content; */
+    object-fit: cover;
+}
+
+.sedans, .sport, .suv, .muscle, .luxury p{
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+body.dark {
+  background-color: #292c35;
+}
+.checkbox {
+  opacity: 0;
+  position: fixed;
+
+}
+
+.label {
+  width: 50px;
+  height: 26px;
+  background-color:rgb(12, 12, 12);
+  display: flex;
+  border-radius:50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  z-index: 99;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball{
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: pink;
+}
+
+.fa-sun {
+  color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dark-mode {
+    background-color: rgb(19, 19, 19);
+    color: #fff;
+  }
+
+
+#dark-btn {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color:rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#myBtn {
+      display: none; /* Hidden by default */
+      position: fixed; /* Fixed/sticky position */
+      bottom: 20px; /* Place the button at the bottom of the page */
+      right: 30px; /* Place the button 30px from the right */
+      z-index: 99; /* Make sure it does not overlap */
+      border: none; /* Remove borders */
+      outline: none; /* Remove outline */
+      background-color: red; /* Set a background color */
+      color: white; /* Text color */
+      cursor: pointer; /* Add a mouse pointer on hover */
+      padding: 15px; /* Some padding */
+      border-radius: 10px; /* Rounded corners */
+      font-size: 20px; /* Increase font size */
+    }
+
+    #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+    }
+
+
+h2 {
+    position:fixed;
+    top: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+
+footer {
+    color:rgb(17, 15, 15) ;
+    margin-top: 1rem;
+    text-align: center;
+    margin-top: 29px;
+    background-color: rgb(252, 9, 9);
+    font-size: 24px;
+    justify-content: center;
+    justify-items: center;
+}
+
+span{
+  color: navy;
+}
+
+/* .mt-auto{
+    text-align: center;
+    font-size: 2px;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+/* .img-toggle {
+    width: 500px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    background: url("./images/moon.png") center / cover;
+}
+
+ @media (prefers-color-scheme: dark){
+    body {
+   background: #000;
+    }
+    .img-toggle {
+       background: url("./images/moon.png") center / cover;
+   }
+} */
+
+
+
+
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 }
+    to { bottom:0px; opacity:1 }
+  }
+
+  @keyframes animatebottom {
+    from{ bottom:-100px; opacity:0 }
+    to{ bottom:0; opacity:1 }
+  }
+
+  #myDiv {
+    display: none;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar ul {
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 19px;
+}
+
+ul li a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+
+}
+
+ul li a:hover {
+    color:#ff0000;
+
+}
+
+.year{
+  color: #fff;
+}
