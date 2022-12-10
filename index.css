@@ -38,8 +38,17 @@ body {
 }
 
 .menu ul{
+  box-sizing: border-box;
+  border-radius: 18px;
   margin-left: 630px;
   float: left;
+}
+
+.menu a{
+  font-size: 22px;
+  background-color:#000000;
+  box-sizing: border-box;
+  border-radius: 30px;
 }
 
 .navbar li{
