@@ -3,6 +3,11 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
+html {
+  line-height:1.15;
+  -webkit-text-size-adjust:100%
+ }
+
 * {
     margin: unset;
     padding: unset;
@@ -17,6 +22,7 @@ body {
     height: fit-content;
     transition: background .2s linear;
     transition: background 0.5s linear;
+
 }
 
 
@@ -37,19 +43,6 @@ body {
     font-size: 70px;
 }
 
-.menu ul{
-  box-sizing: border-box;
-  border-radius: 18px;
-  margin-left: 630px;
-  float: left;
-}
-
-.menu a{
-  font-size: 22px;
-  background-color:#000000;
-  box-sizing: border-box;
-  border-radius: 30px;
-}
 
 .navbar li{
 
@@ -256,27 +249,6 @@ h2 {
 
 }
 
-footer {
-    color:rgb(17, 15, 15) ;
-    margin-top: 1rem;
-    text-align: center;
-    margin-top: 29px;
-    background-color: rgb(252, 9, 9);
-    font-size: 24px;
-    justify-content: center;
-    justify-items: center;
-}
-
-span{
-  color: navy;
-}
-
-/* .mt-auto{
-    text-align: center;
-    font-size: 2px;
-    justify-content: center;
-    justify-items: center;
-}
 
 
 /* .img-toggle {
@@ -382,21 +354,67 @@ ul li {
     font-size: 19px;
 }
 
-ul li a{
-    background-color: black;
+.menu li a{
+    /* background-color: rgb(255, 255, 255);
     text-decoration: none;
-    color: white;
-    font-family: Arial;
+    color: white; */
+    font-family: 'Roboto', 'sans-serif';
     font-weight: bold;
     transition: 0.4 ease-in-out;
 
 }
 
-ul li a:hover {
+.menu li a:hover {
     color:#ff0000;
 
 }
 
 .year{
   color: #fff;
+}
+
+
+
+.menu{
+  padding: 90px 0 50px 30px;
+  background-image: url("./assets/images/bg.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  box-sizing: border-box;
+}
+
+.menu a{
+  font-size: 22px;
+  /* background-color:#ffffff; */
+  text-decoration: none !important;
+}
+
+
+
+
+
+
+.site-footer {
+  color:rgb(255, 255, 255) ;
+  margin-top: 0 !important;
+  text-align: center !important;
+  margin-top: 29px;
+  background-color: #141c3a;
+  font-size: 24px;
+  justify-content: center;
+  justify-items: center;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: bold;
+  transition: 0.4 ease-in-out;
+}
+
+span{
+color: rgb(255, 50, 50);
+}
+
+.site-footer p{
+  margin: 2px 0 !important;
 }

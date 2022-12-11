@@ -3,25 +3,23 @@
     "short_name": "The Car Blog",
     "icons": [
         {
-            "Src": "./assets/icons/",
-            "sizes": "192*192",
+            "Src": "./assets/icons/icons8-hennessey-venom-ios-16-glyph-16.png",
+            "sizes": "16*16",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "Src": "./assets/icons/",
-            "sizes": "384*384",
+            "Src": "./assets/icons/icons8-hennessey-venom-ios-16-glyph-32.png",
+            "sizes": "32*32",
             "type": "image/png"
         },
         {
-            "Src": "./assets/icons/",
-            "sizes": "512*512",
+            "Src": "./assets/icons/icons8-hennessey-venom-ios-16-glyph-96.png",
+            "sizes": "96*96",
             "type": "image/png"
         }
     ],
-    "theme_color": "#FFFFFF",
-    "background_color": "#FFFFFF",
-    "start_url": "/shopping-app1",
+    "start_url": "/Tobi-car-Blog",
     "display": "standalone",
     "orientation": "potrait"
 }
