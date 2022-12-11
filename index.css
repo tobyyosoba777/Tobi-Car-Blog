@@ -398,10 +398,10 @@ ul li {
 
 
 .site-footer {
+  padding: 20px 0 50px 0;
   color:rgb(255, 255, 255) ;
   margin-top: 0 !important;
   text-align: center !important;
-  margin-top: 29px;
   background-color: #141c3a;
   font-size: 24px;
   justify-content: center;
