@@ -253,27 +253,6 @@ h2 {
 
 
 
-/* .img-toggle {
-    width: 500px;
-    height: 600px;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    top: 70px;
-    background: url("./images/moon.png") center / cover;
-}
-
- @media (prefers-color-scheme: dark){
-    body {
-   background: #000;
-    }
-    .img-toggle {
-       background: url("./images/moon.png") center / cover;
-   }
-} */
-
-
-
 
 
 #loader {
@@ -551,3 +530,7 @@ a{
   transform: scale(1.3);
 
  }
+
+
+
+ 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +13,13 @@
 
 body{
     width: 100%;
-    background: url(images/pexels-yoshi-10550012.jpg);
-    background-size: cover;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.82);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    border: 1px solid rgba(255, 255, 255, 0.27);
 }
 
 .form {
@@ -67,3 +74,21 @@ span{
 .btn{
     text-decoration: none;
 }
+
+.content{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+iframe{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+
