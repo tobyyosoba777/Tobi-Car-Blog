@@ -536,3 +536,74 @@ color: #ff2121;
 .site-footer p{
   margin: 2px 0 !important;
 }
+
+
+
+/*making the site responsive to all resolutions*/
+@media screen and (min-width: 500px) {
+   body {
+      width:420px;
+   }
+}
+
+@media screen and (min-width: 800px) {
+   body {
+      width:720px;
+   }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+     width:820px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+     width:920px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+     width:1120px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  body {
+     width:1270px;
+  }
+}
+
+
+@media screen and (min-width: 1500px) {
+  body {
+     width:1420px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  body {
+     width:1600px;
+  }
+}
+
+
+@media screen and (min-width: 1900px) {
+  body {
+     width:1820px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  body {
+     width:1920px;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  body {
+     width:2320px;
+  }
+}
