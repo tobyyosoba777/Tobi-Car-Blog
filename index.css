@@ -7,7 +7,8 @@
 
 html {
   line-height:1.15;
-  -webkit-text-size-adjust:100%
+  -webkit-text-size-adjust:100%;
+  scroll-behavior: smooth;
  }
 
 * {
@@ -19,6 +20,8 @@ html {
 
 
 body {
+    background-color: #FFEFD5;
+    color: #2B0101;
     justify-content: center;
     width: fit-content;
     height: fit-content;
@@ -36,13 +39,16 @@ body {
     background: rgb(230, 22, 22);
     height: 6rem;
     width: 100%;
-    color: rgb(252, 252, 252);
+    color: #fcfcfc;
     padding-left: 1rem;
     box-sizing: border-box;
 }
 
 .navbar p{
-    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 79px;
+    -webkit-text-stroke: 1px rgb(0, 30, 70);
+    text-align: center;
 }
 
 
@@ -378,27 +384,7 @@ ul li {
 
 
 
-.site-footer {
-  padding: 20px 0 50px 0;
-  color:rgb(255, 255, 255) ;
-  margin-top: 0 !important;
-  text-align: center !important;
-  background-color: #141c3a;
-  font-size: 24px;
-  justify-content: center;
-  justify-items: center;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: bold;
-  transition: 0.4 ease-in-out;
-}
 
-span{
-color: rgb(255, 50, 50);
-}
-
-.site-footer p{
-  margin: 2px 0 !important;
-}
 
 
 a{
@@ -533,4 +519,24 @@ a{
 
 
 
- 
+ .site-footer {
+  padding: 20px 0 50px 0;
+  color:#ffffff ;
+  margin-top: 0 !important;
+  text-align: center !important;
+  background-color: #141C3A;
+  font-size: 24px;
+  justify-content: center;
+  justify-items: center;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: bold;
+  transition: 0.4 ease-in-out;
+}
+
+span{
+color: #ff2121;
+}
+
+.site-footer p{
+  margin: 2px 0 !important;
+}
