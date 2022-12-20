@@ -540,6 +540,24 @@ color: #ff2121;
 
 
 /*making the site responsive to all resolutions*/
+/* @media screen and (min-width: 200px) {
+  body {
+     width:200px;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  body {
+     width:300px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  body {
+     width:400px;
+  }
+} */
+
 @media screen and (min-width: 500px) {
    body {
       width:500px;
