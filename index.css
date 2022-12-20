@@ -204,7 +204,7 @@ body.dark {
 
 
 .dark-mode {
-    background-color: rgb(19, 19, 19);
+    background-color: #1a1818;
     color: #fff;
   }
 
@@ -216,7 +216,7 @@ body.dark {
     z-index: 99;
     border: none;
     outline: none;
-    background-color:rgb(19, 19, 19);
+    background-color:#252323;
     color: white;
     cursor: pointer;
     padding: 15px;
