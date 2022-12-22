@@ -20,6 +20,7 @@ html {
 
 
 body {
+
     background-color: #FFEFD5;
     color: #2B0101;
     justify-content: center;
@@ -216,8 +217,8 @@ body.dark {
     z-index: 99;
     border: none;
     outline: none;
-    background-color:#252323;
-    color: white;
+    background-color:#ff2222;
+    color: #ffffff;
     cursor: pointer;
     padding: 15px;
     border-radius: 15px;
@@ -560,115 +561,115 @@ color: #ff2121;
 
 @media screen and (min-width: 500px) {
    body {
-      width:500px;
+      width:100%;
    }
 }
 
 @media screen and (min-width: 600px) {
   body {
-     width:600px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 700px) {
   body {
-     width:700px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 800px) {
    body {
-      width:800px;
+      width:100%;
    }
 }
 
 @media screen and (min-width: 900px) {
   body {
-     width:900px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 1000px) {
   body {
-     width:1000px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 1100px) {
   body {
-     width:1100px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   body {
-     width:1200px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 1300px) {
   body {
-     width:1300px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 1350px) {
   body {
-     width:1350px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 1400px) {
   body {
-     width:1400px;
+     width:100%;
   }
 }
 
 
 @media screen and (min-width: 1500px) {
   body {
-     width:1500px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 1550px) {
   body {
-     width:1550px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 1600px) {
   body {
-     width:1600px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 1700px) {
   body {
-     width:1700px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 1800px) {
   body {
-     width:1800px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 1900px) {
   body {
-     width:1900px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 2000px) {
   body {
-     width:2000px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 2400px) {
   body {
-     width:2400px;
+     width:100%;
   }
 }
