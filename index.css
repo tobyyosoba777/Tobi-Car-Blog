@@ -41,7 +41,7 @@ body {
     height: 6rem;
     width: 100%;
     color: #fcfcfc;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     box-sizing: border-box;
 }
 
@@ -155,7 +155,7 @@ body.dark {
 .label {
   width: 50px;
   height: 26px;
-  background-color:rgb(12, 12, 12);
+  background-color:rgb(30, 0, 199);
   display: flex;
   border-radius:50px;
   align-items: center;
@@ -543,19 +543,19 @@ color: #ff2121;
 /*making the site responsive to all resolutions*/
 /* @media screen and (min-width: 200px) {
   body {
-     width:200px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 300px) {
   body {
-     width:300px;
+     width:100%;
   }
 }
 
 @media screen and (min-width: 400px) {
   body {
-     width:400px;
+     width:100%;
   }
 } */
 
@@ -572,6 +572,12 @@ color: #ff2121;
 }
 
 @media screen and (min-width: 700px) {
+  body {
+     width:100%;
+  }
+}
+
+@media screen and (min-width: 720px) {
   body {
      width:100%;
   }
