@@ -31,17 +31,25 @@ body {
 
 }
 
+:root{
+  --main-color: red;
+  --nav-text: #fff;
+
+}
+
+header {
+  /* none */
+}
 
 .navbar {
-    margin: 0;
-    padding: 0;
     display: flex;
     line-height: 5rem;
     background: rgb(230, 22, 22);
     height: 6rem;
     width: 100%;
-    color: #fcfcfc;
-    /* padding-left: 1rem; */
+    background: var(--main-color);
+    color: var(--nav-text);
+    padding-left: 1rem;
     box-sizing: border-box;
 }
 
@@ -309,27 +317,6 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.navbar ul {
-    float:left;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
 
 ul li {
     list-style: none;
