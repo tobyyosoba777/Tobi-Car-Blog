@@ -25,7 +25,7 @@ body {
     color: #2B0101;
     justify-content: center;
     width: fit-content;
-    height: fit-content;
+    height: 100vh;
     transition: background .2s linear;
     transition: background 0.5s linear;
 
