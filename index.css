@@ -666,3 +666,10 @@ color: #ff2121;
      width:100%;
   }
 }
+
+@media screen and (max-width: 850px){
+
+  .navbar p {
+    font-size: 65px;
+  }
+}
