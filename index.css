@@ -20,7 +20,6 @@ html {
 
 
 body {
-
     background-color: #FFEFD5;
     color: #2B0101;
     justify-content: center;
@@ -37,8 +36,16 @@ body {
 
 }
 
+
+.main-header {
+
+  /* font-size: 2.5rem; */
+  /* background-size: contain; */
+}
+
 header {
-  /* none */
+  font-size: 39px;
+  background-size: contain;
 }
 
 .navbar {
@@ -49,7 +56,7 @@ header {
     width: 100%;
     background: var(--main-color);
     color: var(--nav-text);
-    padding-left: 1rem;
+    padding-left: 12px;
     box-sizing: border-box;
 }
 
@@ -102,11 +109,6 @@ header {
     margin-top: 30px;
 }
 
-
-header {
-    font-size: 39px;
-    background-size: contain;
-}
 .suv{
     width: fit-content;
     height: fit-content;
@@ -161,7 +163,7 @@ body.dark {
 }
 
 .label {
-  width: 50px;
+  width: 57px;
   height: 26px;
   background-color:rgb(30, 0, 199);
   display: flex;
@@ -190,7 +192,7 @@ body.dark {
 
 /*  target the elemenent after the label*/
 .checkbox:checked + .label .ball{
-  transform: translateX(24px);
+  transform: translateX(33px);
 }
 
 .fa-moon {
@@ -667,9 +669,16 @@ color: #ff2121;
   }
 }
 
-@media screen and (max-width: 850px){
-
-  .navbar p {
-    font-size: 65px;
+@media screen and (max-width: 650px){
+  body{
+    /* width: 100%; */
   }
+
+  /* .navbar p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 1.6em;
+    -webkit-text-stroke: 1px rgb(0, 30, 70);
+    text-align: center;
+  } */
 }
+
