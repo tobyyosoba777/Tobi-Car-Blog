@@ -48,25 +48,27 @@ header {
   background-size: contain;
 }
 
-.navbar {
-    display: flex;
-    line-height: 5rem;
-    background: rgb(230, 22, 22);
-    height: 6rem;
-    width: 100%;
-    background: var(--main-color);
-    color: var(--nav-text);
-    padding-left: 12px;
-    box-sizing: border-box;
-}
+
 
 .navbar p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow';
-    font-size: 79px;
+    font-size: 2em;
     -webkit-text-stroke: 1px rgb(0, 30, 70);
     text-align: center;
+    font-weight: 300;
 }
 
+.navbar {
+  display: flex;
+  line-height: 5rem;
+  padding: 0.2rem 2rem;
+  height: 2.5em;
+  width: 100%;
+  background: var(--main-color);
+  color: var(--nav-text);
+  justify-content: space-between;
+  box-sizing: border-box;
+}
 
 .container h1{
   font-family: Arial;
