@@ -1,0 +1,25 @@
+{
+    "name": "Tobi's Car Blog",
+    "short_name": "The Car Blog",
+    "icons": [
+        {
+            "Src": "./assets/icons/icons8-hennessey-venom-ios-16-glyph-16.png",
+            "sizes": "16*16",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "Src": "./assets/icons/icons8-hennessey-venom-ios-16-glyph-32.png",
+            "sizes": "32*32",
+            "type": "image/png"
+        },
+        {
+            "Src": "./assets/icons/icons8-hennessey-venom-ios-16-glyph-96.png",
+            "sizes": "96*96",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/Tobi-car-Blog",
+    "display": "standalone",
+    "orientation": "potrait"
+}

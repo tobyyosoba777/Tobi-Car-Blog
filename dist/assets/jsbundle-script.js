@@ -1,0 +1,1 @@
+(function(){'use strict';var menu=document.querySelector("#menu-icon"),navbar=document.querySelector(".navbar");menu.onclick=function(){menu.classList.toggle("bx-x"),navbar.classList.toggle("open");},window.menu=menu,window.navbar=navbar;}());

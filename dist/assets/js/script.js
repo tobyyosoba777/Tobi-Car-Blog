@@ -1,0 +1,1 @@
+let menu=document.querySelector("#menu-icon"),navbar=document.querySelector(".navbar");menu.onclick=()=>{menu.classList.toggle("bx-x"),navbar.classList.toggle("open")};

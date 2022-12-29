@@ -1,0 +1,1 @@
+(function(){'use strict';var checkbox=document.getElementById("checkbox");checkbox.addEventListener("change",function(){document.body.classList.toggle("dark");}),window.checkbox=checkbox;}());
