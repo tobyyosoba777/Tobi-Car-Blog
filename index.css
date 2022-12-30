@@ -18,6 +18,12 @@ html {
 
 }
 
+:root{
+  --main-color: red;
+  --nav-text: #fff;
+
+}
+
 
 body {
     background-color: #FFEFD5;
@@ -30,18 +36,65 @@ body {
 
 }
 
-:root{
-  --main-color: red;
-  --nav-text: #fff;
+nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #1d1d1d;
+  padding: 28px 20px;
+  border-bottom: 4px solid red;
+  line-height: 5rem;
+}
+
+.ri-steering-fill {
+  color: #fff;
+  font-size: 3.1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-right: 8px;
+}
+
+.contain {
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 
 }
 
+.contain .h {
+  color: #ff1111;
+  font-size: 35px;
+  font-style: arial;
+  font-weight: 800;
+  letter-spacing: .2px;
 
-.main-header {
-
-  /* font-size: 2.5rem; */
-  /* background-size: contain; */
 }
+
+.links{
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: flex-end;
+  margin: 0px 16px;
+}
+
+.links a{
+  font-size: 1.6rem;
+  margin: 0 16px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 12px;
+}
+
+.links a:hover {
+  background-color: red;
+}
+
 
 header {
   font-size: 39px;
@@ -59,6 +112,9 @@ header {
 }
 
 .navbar {
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   line-height: 5rem;
   padding: 0.2rem 2rem;
@@ -70,13 +126,6 @@ header {
   box-sizing: border-box;
 }
 
-.container h1{
-  font-family: Arial;
-  text-align: center;
-  font-size: 49px;
-  box-sizing:border-box;
-
-}
 
 .container{
   width: 100%;
@@ -86,6 +135,16 @@ header {
   background-position: center;
   background-size: cover;
   padding-bottom: 50%;
+  /* padding-top: 20%; */
+}
+
+.container h1{
+  font-family: Arial;
+  text-align: center;
+  font-size: 49px;
+  /* box-sizing:border-box; */
+  color: #2B0101;
+
 }
 
 .container p {
@@ -107,7 +166,7 @@ header {
 
 .container1 img{
     float: right;
-    padding-right: 20px;
+    /* padding-right: 20px; */
     margin-top: 30px;
 }
 
@@ -222,7 +281,7 @@ body.dark {
   }
 
 
-#dark-btn {
+/* #dark-btn {
     position: fixed;
     top: 20px;
     right: 30px;
@@ -235,7 +294,7 @@ body.dark {
     padding: 15px;
     border-radius: 15px;
     font-size: 20px;
-}
+} */
 
 #myBtn {
       display: none; /* Hidden by default */
@@ -330,9 +389,6 @@ ul li {
 }
 
 .menu li a{
-    /* background-color: rgb(255, 255, 255);
-    text-decoration: none;
-    color: white; */
     font-family: 'Roboto', 'sans-serif';
     font-weight: bold;
     transition: 0.4 ease-in-out;
