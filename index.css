@@ -45,7 +45,7 @@ nav {
   background-color: #1d1d1d;
   padding: 28px 20px;
   border-bottom: 4px solid red;
-  line-height: 5rem;
+  line-height: 4rem;
 }
 
 .ri-steering-fill {
@@ -88,7 +88,8 @@ nav {
   text-decoration: none;
   color: #fff;
   transition: 0.4s;
-  border-radius: 12px;
+  font-weight: 700;
+  border-radius: 2rem;
 }
 
 .links a:hover {
