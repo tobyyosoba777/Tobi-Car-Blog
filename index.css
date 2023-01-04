@@ -32,7 +32,7 @@ body {
     width: fit-content;
     height: 100vh;
     transition: background .2s linear;
-    transition: background 0.2s linear;
+    transition: background 0.15s linear;
 
 }
 
@@ -249,7 +249,7 @@ body.dark {
   top: 2px;
   left: 2px;
   border-radius: 50%;
-  transition: transform 0.1s linear;
+  transition: transform 0.15s linear;
 }
 
 /*  target the elemenent after the label*/
