@@ -132,7 +132,6 @@ header {
 .container{
   width: 100%;
   height: fit-content;
-  padding: 1rem;
   background-image: url("./images/pexels-yoshi-10550012.jpg");
   background-position: center;
   background-size: cover;
@@ -141,9 +140,10 @@ header {
 }
 
 .container h1{
+  text-indent: 0.5rem;
   font-family: Arial;
   text-align: center;
-  font-size: 49px;
+  font-size: 3.5rem;
   /* box-sizing:border-box; */
   color: #2B0101;
 
@@ -211,7 +211,9 @@ header {
 
 
 
-
+marquee {
+  font-size: 3rem;
+}
 
 
 
