@@ -74,10 +74,17 @@ box-shadow:  9px 9px 18px #006600,
 }
 
 .container .image {
-    background-image: url(./cars/2020chevroletcorvetteback.jpg);
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
     background-color: rgb(86, 126, 255);
     height: 240px;
-    width: 30%;
+    width: 50%;
+}
+
+.container .image img{
+    border-radius: 200px;
+    height: 200px;
 }
 
 
@@ -201,6 +208,6 @@ body.dark {
 
 @media screen and (max-width:500px){
     .container .content {
-        height: 490px;
+        height: 790px;
     }
 }
