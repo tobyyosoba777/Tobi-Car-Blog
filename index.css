@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Noto+Sans|Open+Sans:400,700&display=swap');
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
 
 html {
-  line-height:1.15;
   -webkit-text-size-adjust:100%;
   scroll-behavior: smooth;
  }
@@ -33,6 +33,7 @@ body {
     height: 100vh;
     transition: background .2s linear;
     transition: background 0.15s linear;
+    margin: 0 auto;
 
 }
 
@@ -45,7 +46,10 @@ nav {
   background-color: #1d1d1d;
   padding: 28px 20px;
   border-bottom: 4px solid red;
-  line-height: 4rem;
+}
+
+.name-start {
+  font-size: 1.3em;
 }
 
 .ri-steering-fill {
@@ -58,20 +62,22 @@ nav {
 }
 
 .contain {
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  /* justify-content: space-between; */
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
 
 }
 
 .contain .h {
   color: #ff1111;
-  font-size: 35px;
+  font-size: 2.5em;
   font-style: arial;
   font-weight: 800;
-  letter-spacing: .2px;
+  /* letter-spacing: .2px; */
 
 }
 
@@ -83,35 +89,39 @@ nav {
 }
 
 .links a{
-  font-size: 1.4rem;
+  /* padding: 0rem 1rem 0rem 1rem; */
+  line-height: 3.4rem;
+  font-size: 1.45rem;
   margin: 0 16px;
   text-decoration: none;
   color: #fff;
   transition: 0.4s;
-  font-weight: 700;
-  border-radius: 20px;
-  line-height: 1.9em;
+  font-family: 'Sofia Sans', sans-serif;
+  /* font-weight: 700; */
+  /* border-radius: 15px; */
 }
 
 .links a:hover {
   background-color: #c91313;
 }
 
+.links a:visited {
+  text-decoration: none;
+}
+
+.ri-home-4-fill{
+  color: #fff;
+}
+
+.ri-user-3-line {
+  color: #fff;
+}
 
 header {
-  font-size: 39px;
+  font-size: 1.65em;
   background-size: contain;
 }
 
-
-
-.navbar p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
-    font-size: 2em;
-    -webkit-text-stroke: 1px rgb(0, 30, 70);
-    text-align: center;
-    font-weight: 300;
-}
 
 .navbar {
   top: 0;
@@ -135,7 +145,7 @@ header {
   background-image: url("./images/pexels-yoshi-10550012.jpg");
   background-position: center;
   background-size: cover;
-  padding-bottom: 50%;
+  padding-bottom: 45%;
   /* padding-top: 20%; */
 }
 
