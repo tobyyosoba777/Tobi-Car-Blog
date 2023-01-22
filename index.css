@@ -104,6 +104,9 @@ nav {
 
 .links a:hover {
   background-color: #c91313;
+  background: #ff0000;
+  box-shadow:  23px 23px 46px #990000,
+              -23px -23px 46px #ff0000;
 }
 
 .links a:visited {
