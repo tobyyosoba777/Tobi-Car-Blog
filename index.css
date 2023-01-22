@@ -33,7 +33,7 @@ body {
     height: 100vh;
     transition: background .2s linear;
     transition: background 0.15s linear;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
 }
 
@@ -46,6 +46,7 @@ nav {
   background-color: #1d1d1d;
   padding: 28px 20px;
   border-bottom: 4px solid red;
+  line-height: 4rem;
 }
 
 .name-start {
@@ -141,7 +142,7 @@ header {
 
 .container{
   width: 100%;
-  height: fit-content;
+  height: 70;
   background-image: url("./images/pexels-yoshi-10550012.jpg");
   background-position: center;
   background-size: cover;
@@ -178,7 +179,6 @@ header {
 
 .container1 img{
     float: right;
-    /* padding-right: 20px; */
     margin-top: 30px;
 }
 
@@ -349,7 +349,7 @@ h2 {
     z-index: 1;
     width: 120px;
     height: 120px;
-    margin: -76px 0 0 -76px;
+    /* margin: -76px 0 0 -76px; */
     border: 16px solid #f3f3f3;
     border-radius: 50%;
     border-top: 16px solid #3498db;
@@ -396,7 +396,6 @@ h2 {
 
 ul li {
     list-style: none;
-    margin-left: 62px;
     margin-top: 27px;
     font-size: 19px;
 }
