@@ -79,7 +79,7 @@ box-shadow:  9px 9px 18px #006600,
     box-sizing: border-box;
     margin-top: 20px;
     height: 200px;
-    /* width: 200px; */
+    width: 200px;
     /* border: 3px solid rgb(255, 0, 0); */
     /* background-color: rgb(86, 126, 255); */
     /* height: 240px; */
@@ -207,8 +207,8 @@ body.dark {
 
 @media screen and (max-width:950px){
     .container .content {
-        height: 400px;
-        width: 76%;
+        height: 100%;
+        width: 100%;
     }
 
     .image {
@@ -217,8 +217,8 @@ body.dark {
     }
 
     .image img {
-        height: 20px;
-        width: 90px;
+        height: 100%;
+        width: 100%;
         border-radius: 10px;
     }
 }
