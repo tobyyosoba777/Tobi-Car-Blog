@@ -38,11 +38,11 @@ body{
     list-style: none;
     display: inline-block;
     padding: .9rem 3.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background: none;
     color: rgb(0, 0, 0);
     box-shadow: 0 .5rem 1rem rgb(26 0 0 / 90%);
-    border-radius: 29px;
+    border-radius: 10px;
 
 }
 
@@ -82,9 +82,10 @@ color: #ff2121;
 
 
 .btn:hover{
-    color: aqua;
-    font-size: 50px;
-    border: none;
+   transition: 0.4s ease-in-out;
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    border: 1px solid #333;
 }
 
 .btn{

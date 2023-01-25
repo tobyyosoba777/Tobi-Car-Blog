@@ -219,6 +219,86 @@ body.dark {
 
   }
 
+
+
+
+.menu-bar {
+    height: 100%;
+}
+
+.menu-bar ul {
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+}
+
+.menu-bar li {
+    list-style: none;
+}
+
+.menu-bar li a {
+    text-decoration: none;
+    color: rgb(19, 0, 0);
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: inline-block;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+
+.menu-bar li:hover {
+    background-color: #333333;
+}
+
+.menu-bar li:nth-child(1):hover {
+    border-radius: 2rem 2rem 0 0;
+}
+
+.menu-bar li:last-child:hover {
+    border-radius: 0 0 2rem 2rem;
+}
+
+  .menu {
+    display: flex;
+}
+
+.menu-bar {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    width: 190px;
+    height: 120px;
+}
+
+.menu-bar ul {
+    width: 100%;
+    flex-direction: column;
+}
+
+.menu-bar ul li {
+    text-align: center;
+}
+
+.menu-bar ul li a {
+    padding: 1rem 1rem;
+}
+
+.menu-bar.active {
+    position: relative;
+    transition: 0.5s;
+    display: flex;
+    background-color: skyblue;
+    border-radius: 2rem;
+    width: 200px;
+
+}
+
+
+
+
+
+
 @media screen and (max-width:950px){
     .container .content {
         height: 100%;
