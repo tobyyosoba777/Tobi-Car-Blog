@@ -255,7 +255,7 @@ body.dark {
 }
 
 .menu-bar li:last-child:hover {
-    border-radius: 0 0 2rem 2rem;
+    border-radius: 0 0 1.99rem 1.99rem;
 }
 
   .menu {
