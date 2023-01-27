@@ -109,13 +109,14 @@ box-shadow:  9px 9px 18px #006600,
 
 
 .menu {
-    position: fixed;
+    /* position: fixed; */
     top: 99;
     left: 0;
     right: 0;
     z-index: 99;
     bottom: 10px;
-    margin: 0 auto;
+    margin: 0 auto ;
+    margin-top: 29px;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -313,5 +314,6 @@ body.dark {
     nav {
         line-height: 3rem;
     }
+
 }
 
