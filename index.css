@@ -74,7 +74,7 @@ nav {
 }
 
 .contain .h {
-  color: #ff1111;
+  color: #ff0000;
   font-size: 2.5em;
   font-style: arial;
   font-weight: 800;
@@ -144,7 +144,10 @@ header {
 
 
 .container{
-  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 1900px;
+  /* width: 100%; */
   height: 70;
   background-image: url("./images/pexels-yoshi-10550012.jpg");
   background-position: center;
@@ -157,7 +160,7 @@ header {
   text-indent: 0.5rem;
   font-family: Arial;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3.4rem;
   /* box-sizing:border-box; */
   color: #2B0101;
 
@@ -173,7 +176,7 @@ header {
 }
 
 .container1 p {
-    font-size: 70px;
+    font-size: 3.7rem;
 }
 
 .container1 li{
@@ -193,32 +196,11 @@ header {
 
 
 
-.muscle {
-    /* width: fit-content;
-    height: fit-content; */
-    object-fit: cover;
-}
 
-.suv {
-    /* width: fit-content;
-    height: fit-content; */
-    object-fit: cover;
-}
-
-.sport {
-    /* width: fit-content;
-    height: fit-content; */
-    object-fit: contain;
-}
-
-.sedans {
-    /* width: fit-content;
-    height: fit-content; */
-    object-fit: cover;
-}
 
 .sedans, .sport, .suv, .muscle, .luxury p{
     font-size: 24px;
+    object-fit: cover;
 }
 
 
@@ -621,7 +603,7 @@ color: #ff2121;
   }
 } */
 
-@media screen and (min-width: 500px) {
+/* @media screen and (min-width: 500px) {
    body {
       width:100%;
    }
@@ -740,13 +722,50 @@ color: #ff2121;
   body {
      width:100%;
   }
-}
+} */
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 950px){
   body{
-    /* width: 100%; */
+    width: fit-content;
+    height: 100%;
   }
 
+  img {
+    width: 100%;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .links a {
+    font-size: 1.233rem;
+    padding: 0;
+  }
+
+  .links {
+    padding: 0;
+  }
+
+  .contain h1 {
+    font-size: 2rem;
+  }
+
+  nav {
+    line-height: 4.6rem;
+  }
+
+  .container1 p {
+    font-size: 3.2rem;
+  }
+
+  .container1 img {
+    width: 100%;
+  }
   /* .navbar p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow';
     font-size: 1.6em;

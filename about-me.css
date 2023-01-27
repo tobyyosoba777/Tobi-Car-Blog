@@ -19,7 +19,7 @@ html {
 
 body {
     margin: 0 auto;
-    height: 100vh;
+    /* height: 100vh; */
     justify-content: center;
     background-color: rgb(255, 255, 255);
     width: 100%;
@@ -157,10 +157,6 @@ a .menu:hover {
     color: red;
 }
 
-.options
-
-
-
 
 
 body.dark {
@@ -221,7 +217,6 @@ body.dark {
 
 
 
-
 .menu-bar {
     height: 100%;
 }
@@ -255,7 +250,7 @@ body.dark {
 }
 
 .menu-bar li:last-child:hover {
-    border-radius: 0 0 1.99rem 1.99rem;
+    border-radius: 0 0 2rem 2rem;
 }
 
   .menu {
@@ -297,9 +292,7 @@ body.dark {
 
 
 
-
-
-@media screen and (max-width:950px){
+@media screen and (max-width:1350px) {
     .container .content {
         height: 100%;
         width: 100%;
@@ -322,27 +315,3 @@ body.dark {
     }
 }
 
-/*
-@media screen and (max-width:850px){
-    .container .content {
-        height: 100%;
-    }
-
-    .image {
-        border: none;
-        height: 100%;
-        width: 100%;
-    }
-
-    .image img {
-        border: none;
-        margin-top: 20px;
-        height: 100%;
-        width: 100%;
-        border-radius: 45px;
-    }
-
-    nav {
-        width: 100%;
-    }
-} */
