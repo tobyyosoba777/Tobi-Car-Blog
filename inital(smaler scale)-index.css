@@ -121,7 +121,7 @@ nav {
   color: #fff;
 }
 
-header {
+header, .luxury header {
   font-size: 1.65em;
   background-size: contain;
 }
@@ -150,7 +150,7 @@ header {
   background-position: center;
   background-size: cover;
   padding-bottom: 45%;
-  /* padding-top: 20%; */
+  padding-top: 60px;
 }
 
 .container h1{
@@ -603,148 +603,27 @@ color: #ff2121;
 
 
 /*making the site responsive to all resolutions*/
-/* @media screen and (min-width: 200px) {
-  body {
-     width:100%;
-  }
-}
 
-@media screen and (min-width: 300px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 400px) {
-  body {
-     width:100%;
-  }
-} */
-
-@media screen and (min-width: 500px) {
-   body {
-      width:100%;
-   }
-}
-
-@media screen and (min-width: 600px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 700px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 800px) {
-   body {
-      width:100%;
-   }
-}
-
-@media screen and (min-width: 900px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 1100px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 1300px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 1350px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  body {
-     width:100%;
-  }
-}
-
-
-@media screen and (min-width: 1500px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 1550px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 1700px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 1800px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 2000px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (min-width: 2400px) {
-  body {
-     width:100%;
-  }
-}
-
-@media screen and (max-width: 650px){
+@media screen and (max-width: 1050px){
   body{
-    /* width: 100%; */
+    width: fit-content;
+    height: 100%;
+  }
+
+  nav {
+    line-height: 5.7rem;
+  }
+
+  .contain h1 {
+    font-size: 3rem;
+  }
+
+  .contain .h {
+    font-size: 2.8em;
+  }
+
+  .links a {
+    font-size: 1.46em;
   }
 
   /* .navbar p {
