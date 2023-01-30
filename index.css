@@ -90,7 +90,6 @@ nav {
 }
 
 .links a{
-  /* padding: 0rem 1rem 0rem 1rem; */
   line-height: 3.4rem;
   font-size: 1.45rem;
   margin: 0 16px;
@@ -98,7 +97,6 @@ nav {
   color: #fff;
   transition: 0.4s;
   font-family: 'Sofia Sans', sans-serif;
-  /* font-weight: 700; */
   /* border-radius: 15px; */
 }
 
@@ -161,7 +159,6 @@ header {
   font-family: Arial;
   text-align: center;
   font-size: 3.4rem;
-  /* box-sizing:border-box; */
   color: #2B0101;
 
 }
