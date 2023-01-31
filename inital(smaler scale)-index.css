@@ -5,6 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@340&display=swap');
 
 html {
   -webkit-text-size-adjust:100%;
@@ -273,7 +274,7 @@ body.dark {
 }
 
 .fa-moon {
-  color: pink;
+  color: hwb(350 75% 0%);
 }
 
 .fa-sun {
@@ -395,8 +396,6 @@ h2 {
   }
 
 
-
-
 ul li {
     list-style: none;
     margin-top: 27px;
@@ -404,14 +403,22 @@ ul li {
 }
 
 .menu li a{
-    font-family: 'Roboto', 'sans-serif';
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    padding: 4px 25px 4px 25px;
+    font-family: 'Heebo', sans-serif;
     font-weight: bold;
     transition: 0.4 ease-in-out;
 
 }
 
 .menu li a:hover {
-    color:#ff0000;
+    /* background-color: #333; */
+    border: 3px solid rgb(179, 166, 166);
 
 }
 
@@ -427,19 +434,6 @@ ul li {
   background-position: right bottom;
   background-repeat: no-repeat;
 }
-
-.menu {
-  box-sizing: border-box;
-}
-
-.menu a{
-  font-size: 22px;
-  /* background-color:#ffffff; */
-  text-decoration: none !important;
-}
-
-
-
 
 
 
