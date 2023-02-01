@@ -35,6 +35,18 @@ main {
     z-index: 2;
 }
 
+.ri-account-circle-fill {
+    display: inline-block;
+    height: 0;
+    font-size: 2.3rem;
+    color: #123;
+}
+
+.head {
+    display: flex;
+    margin: 0 auto;
+}
+
 .glass header {
     text-align: center;
     font-size: 2.5rem;
@@ -74,8 +86,8 @@ main {
     margin-top: 150px;
     box-sizing: border-box;
     margin-top: 20px;
-    height: 150px;
-    width: 150px;
+    height: 10rem;
+    width: 9rem;
     margin: 0 auto;
     z-index: 2;
 }
@@ -94,7 +106,9 @@ main {
     }
 
     .glass header {
-        font-size: 2.2rem;
+        font-size: 2.05rem;
+        padding: 0;
+        margin: 0;
     }
 
     .circle1, .circle2 {
