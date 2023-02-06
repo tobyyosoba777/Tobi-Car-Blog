@@ -43,6 +43,7 @@ main {
     align-items:center;
     justify-content: center;
     background: linear-gradient(to right top,  #65dfc9, #6cdbeb);
+    /* background: linear-gradient(to right top,  #be0000, #0044ff); */
 }
 
 .glass {
