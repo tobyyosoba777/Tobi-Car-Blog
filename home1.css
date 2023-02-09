@@ -21,6 +21,8 @@ main {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     width: 65%;
     min-height: 80vh;
     display: flex;
@@ -60,6 +62,7 @@ body::after {
 
 .head {
     display: flex;
+    flex-direction: column;
     margin: 1rem auto;
     justify-content: center;
     align-items: center;
@@ -74,8 +77,24 @@ body::after {
     justify-content: right;
 }
 
+.links {
+    display: flex;
+    margin-top: 20rem;
+    margin: 0 auto;
+    align-items: right;
+    justify-content: right;
+}
 
+.links img {
+    width: 40px;
+    margin: 10px 5px;
+    border-radius: 50%;
+    transition: background 0.5s;
+}
 
+.links img:hover {
+    background: red;
+}
 
 
 
