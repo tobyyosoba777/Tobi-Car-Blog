@@ -171,22 +171,22 @@ main {
 
 
 .links .twit:hover {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .links .tele:hover {
-    background: rgba(0, 47, 255, 0.7);
+    background: rgba(0, 47, 255, 0.8);
 }
 
 .links .whats:hover {
-    background: rgb(60, 255, 0, 0.7);
+    background: rgb(60, 255, 0, 0.8);
 }
 
 .links .inst:hover {
-    background: rgb(255, 1, 207, 0.7);
+    background: rgb(255, 1, 207, 0.8);
 }
 
-@media screen and (max-width:850px){
+@media screen and (max-width: 850px){
     .glass {
         width: 84%;
         padding: 1.1rem;
