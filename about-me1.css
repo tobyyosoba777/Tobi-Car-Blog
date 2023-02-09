@@ -145,15 +145,50 @@ main {
 }
 
 .image img{
-    margin-top: 120px;
+    margin-top: 30px;
     border-radius: 50%;
     height: 100%;
     width: 100%;
 }
 
+.links {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 35px;
+    padding-top: 20px;
+    border-radius: 50%;
+
+}
+
+.links img {
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: background 0.5s;
+}
+
+
+.links .twit:hover {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.links .tele:hover {
+    background: rgba(0, 47, 255, 0.7);
+}
+
+.links .whats:hover {
+    background: rgb(60, 255, 0, 0.7);
+}
+
+.links .inst:hover {
+    background: rgb(255, 1, 207, 0.7);
+}
+
 @media screen and (max-width:850px){
     .glass {
-        width: 75%;
+        width: 84%;
         padding: 1.1rem;
     }
 
@@ -196,5 +231,13 @@ main {
 
     .content p {
         font-size: 1.04rem;
+    }
+
+    .links {
+        margin: 5px;
+    }
+
+    .links img {
+        margin: 0px 0px;
     }
 }
