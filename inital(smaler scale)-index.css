@@ -403,20 +403,21 @@ ul li {
 .menu li a{
     display: inline-block;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.0rem;
     color: rgb(255, 255, 255);
-    border: 3px solid rgb(255, 255, 255);
-    background-color: rgb(255, 0, 0);
-    padding: 4px 25px 4px 25px;
-    font-family: 'Heebo', sans-serif;
+    /* border: 3px solid rgb(255, 255, 255); */
+    background-color: #ff0000;
+    padding: 4px 7px ;
     font-weight: bold;
     transition: 0.4 ease-in-out;
 
 }
 
 .menu li a:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
     /* background-color: #333; */
-    border: 3px solid rgb(179, 166, 166);
+    border: 1px solid rgb(255, 255, 255);
 
 }
 
