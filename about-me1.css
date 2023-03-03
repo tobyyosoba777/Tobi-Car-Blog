@@ -39,14 +39,14 @@ body::after {
     clip-path: circle(20% at 10% 10%);
 }
 
-.back form {
+form {
     display: flex;
     float: left;
 }
 
-.back form .ri-arrow-left-line {
+form .ri-arrow-left-line {
     float: left;
-    color: rgba(255, 255, 255, 0.89);
+    color: rgb(129, 0, 204);
     align-items: left;
 }
 
