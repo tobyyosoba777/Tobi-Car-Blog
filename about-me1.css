@@ -39,6 +39,17 @@ body::after {
     clip-path: circle(20% at 10% 10%);
 }
 
+.back form {
+    display: flex;
+    float: left;
+}
+
+.back form .ri-arrow-left-line {
+    float: left;
+    color: rgba(255, 255, 255, 0.89);
+    align-items: left;
+}
+
 main {
     /* padding-top: 2rem; */
     width: 100%;
