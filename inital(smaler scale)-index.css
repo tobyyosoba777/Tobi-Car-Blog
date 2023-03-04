@@ -147,7 +147,6 @@ header {
   box-sizing: border-box;
 }
 
-
 .container{
   width: 100%;
   height: 70;
@@ -232,7 +231,9 @@ header {
     font-size: 24px;
 }
 
-
+.suv, .luxury, .sport, .muscle, .electric, .sedans {
+  margin-top: 60px;
+}
 
 
 marquee {
@@ -628,6 +629,10 @@ color: #ff2121;
 
   .links a {
     font-size: 1.46em;
+  }
+
+  .suv, .luxury, .sport, .muscle, .electric, .sedans {
+    margin-top: 50px;
   }
 
   /* .navbar p {
