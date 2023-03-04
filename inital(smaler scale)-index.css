@@ -234,6 +234,16 @@ header {
   margin-top: 60px;
 }
 
+.suv a img {
+  height: 427px;
+  width: 750px;
+}
+
+.suv .close {
+  display: flex;
+  flex-direction: column;
+
+}
 
 marquee {
   font-size: 3rem;
@@ -612,6 +622,11 @@ color: #ff2121;
 
   .suv, .luxury, .sport, .muscle, .electric, .sedans {
     margin-top: 50px;
+  }
+
+  .suv a img {
+    width: 100%;
+    height: 427px;
   }
 
   /* .navbar p {
