@@ -89,7 +89,7 @@ nav {
 }
 
 .links a{
-  padding: 0rem 1rem 0rem 1rem;
+  /* padding: 0rem 1rem 0rem 1rem; */
   border: #333 0.3px solid;
   border-radius: 6px;
   line-height: 3.5rem;
@@ -127,6 +127,10 @@ header, .luxury header {
   background-size: contain;
 }
 
+header {
+  font-size: 1.65em;
+  background-size: contain;
+}
 
 .navbar {
   top: 0;
@@ -174,7 +178,7 @@ header, .luxury header {
 }
 
 .container1 p {
-    font-size: 70px;
+    font-size: 4em;
 }
 
 .container1 li{
@@ -218,7 +222,13 @@ header, .luxury header {
     object-fit: cover;
 }
 
-.sedans, .sport, .suv, .muscle, .luxury p{
+.electric {
+  /* width: fit-content;
+  height: fit-content; */
+  object-fit: cover;
+}
+
+.sedans, .sport, .suv, .muscle, .luxury, .electric p{
     font-size: 24px;
 }
 
@@ -413,7 +423,8 @@ ul li {
 .menu li a{
     display: inline-block;
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 1.05em;
+    font-weight: 600;
     color: rgb(255, 255, 255);
     /* border: 3px solid rgb(255, 255, 255); */
     background-color: #ff0000;
