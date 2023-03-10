@@ -25,7 +25,7 @@ html {
 
 
 body {
-    background-color: #FFEFD5;
+    background-color: #f1f1f1;
     color: #2B0101;
     justify-content: center;
     width: fit-content;
@@ -72,7 +72,7 @@ nav {
 }
 
 .contain .h {
-  color: #ff1111;
+  color: #ff0000;
   font-size: 2.5em;
   font-style: arial;
   font-weight: 800;
@@ -152,8 +152,8 @@ header {
   background-image: url("./images/pexels-yoshi-10550012.jpg");
   background-position: center;
   background-size: cover;
-  padding-bottom: 45%;
-  padding-top: 60px;
+  padding-bottom: 35%;
+  padding-top: 40px;
 }
 
 .container h1{
@@ -587,7 +587,7 @@ a{
 }
 
 span{
-color: #ff2121;
+color: #ff0000;
 }
 
 .site-footer p{
@@ -606,10 +606,11 @@ color: #ff2121;
 
   nav {
     line-height: 5.7rem;
+    padding: 35px 20px;
   }
 
   .contain h1 {
-    font-size: 3rem;
+    font-size: 3rem;i
   }
 
   .contain .h {
