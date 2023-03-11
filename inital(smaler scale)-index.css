@@ -90,7 +90,6 @@ nav {
 
 .links a{
   /* padding: 0rem 1rem 0rem 1rem; */
-  border: #333 0.3px solid;
   border-radius: 6px;
   line-height: 3.5rem;
   font-size: 1.45rem;
@@ -127,6 +126,10 @@ header, .luxury header {
   background-size: contain;
 }
 
+.electric header {
+  font-size: 2.05em;
+}
+
 header {
   font-size: 1.65em;
   background-size: contain;
@@ -161,7 +164,7 @@ header {
   text-indent: 0.5rem;
   font-family: Arial;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   /* box-sizing:border-box; */
   color: #2B0101;
 
@@ -177,11 +180,11 @@ header {
 }
 
 .container1 p {
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 .container1 li{
-    font-size: 26px;
+    font-size: 1.5em;
 }
 
 .container1 img{
@@ -611,7 +614,7 @@ color: #ff0000;
   }
 
   .contain h1 {
-    font-size: 3rem;i
+    font-size: 3rem;
   }
 
   .contain .h {
