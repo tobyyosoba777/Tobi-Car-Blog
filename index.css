@@ -259,8 +259,6 @@ body.dark {
 
 
 
-
-
 .dark-mode {
     background-color: #1a1818;
     color: #fff;
@@ -386,13 +384,8 @@ ul li {
 
 .menu a{
   font-size: 22px;
-  /* background-color:#ffffff; */
   text-decoration: none !important;
 }
-
-
-
-
 
 
 
