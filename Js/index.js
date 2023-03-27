@@ -26,11 +26,6 @@ function myFunction() {
   document.getElementById("image");
 }
 
-function mynewFunction(x) {
-  x.classList.toggle("m");
-}
-
-
 
 $('.tdnn').click(function () {
   $("body").toggleClass('light');
