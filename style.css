@@ -620,6 +620,10 @@ color: #ff0000;
     width: 100%;
     height: 450px;
   }
+  .container {
+    height: 450vh;
+    padding-bottom: 4rem;
+  }
 
 
   /* .navbar p {
